@@ -1,38 +1,189 @@
-.App {
+ .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.frame1 {
+  height: 350px;
+  width: 100%;
+  background: url("../public/bg.png");
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ 
+.frame2 {
+    height: 200px;
+    width: 50%;
+    background: white;
+    margin-left: 30%;
+    margin-bottom: -160px; 
+    position: absolute;
+    bottom: 73.1%;
   }
+  
+.frameforamazon {
+  height: 55px;
+  background-color: white;
+  box-shadow: 2px 2px 2px rgb(210, 215, 217);
+  margin-bottom: -160px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.amazon {
+  height: 33px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  display: block;
+  margin-left: 10%;
+  position: relative;
+  top: 30%;
+  left: 29%;
+  transform: translateY(-50%);
+  width: 15%;
+  margin-bottom: 50%;
+}
+.login {
+  width: 200px;
+  height: 70px;
+  font-style: italic;
+  font-variant: normal;
+  font-family:'Lucida Sans' ;
+  margin-left: 35%;
+  font-weight: x-large;
+  color: #00C000;
+  font-size: 180%;
+  margin-top: 30%;
+}
+.frame3 {
+  height: 100px;
+  width: 20%;
+  margin-left: 38%;
+}
+.line1{
+  color: #000000;
+  width: 148%;
+  margin-top: -0.2%;
+  height: 1px;
+  border-color: #000000; border-style: solid; border-width: 1px;
+  background:  #000000;;
+}
+.email {
+  height: 100px;
+  width: 20%;
+  margin-left: 38%;
+  
+}
+.text{
+  font-size: larger;
+  color: #00C000;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-right: 60%;
+}
+.textforemail{
+  font-size: larger;
+  color: #00C000;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-right: 90%;
+}
+.emailinput{
+  color: red;
+  font-size: small;
+}
+.line2{
+  color: rgb(188, 180, 180);
+  width: 1520%;
+  height: 0.5px;
+  border-color:rgb(188, 180, 180); border-style: solid; border-width: 0.5px;
+  background: rgb(188, 180, 180);
+}
+.buttonforsignin{
+  height: 40px;
+  width: 470px;
+  border-radius: 25px;
+  border-color: #00C000;
+  background-color: #00C000;
+}
+.signin{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.textforgot{
+  color:hsl(0, 0%, 0%);
+  font-size: bold;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: -2%;
+}
+.signup{
+  color: #FF0000;
+  font-size: bold;
+  font-weight: bold;
+  margin-right: 30%;
+  margin-top: 120%;
+  vertical-align: text-top;
+  position: relative;
+  width: 400px;
+  height: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.textor{
+  color: black; 
+  text-align: 150%;
+  font-weight: bold;
+  margin-left: 50%;
+  margin-top: 180%;
+}
+
+.buttonforgoogle{
+  height: 40px;
+  width: 470px;
+  border-color: #206af3;
+  background-color: #206af3;
+  margin-top: 12%;
+}
+.buttonforfacebook{
+  height: 40px;
+  width: 470px;
+  border-color: #0a4cc7;
+  background-color: #0a4cc7;
+  margin-top: -344px;
+}
+.logoffacebook{
+ width:45px;
+ height:35px;
+ margin-right: 410px;
+ margin-bottom: 160%;
+ margin-top: -4%;
+}
+.logofgoogle{
+  width:45px;
+  height:35px;
+  margin-right: 410px;
+  margin-bottom: 160%;
+  margin-top: -4%; 
+}
+ 
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+  .frame1 {
+    height: 25vh;
   }
-  to {
-    transform: rotate(360deg);
+  .frame2 {
+    width: 95%;
+  }
+  .amazon {
+    height: 30px;
+  }
+  .login {
+    font-size: 1.2rem;
+  }
+  .frame3 {
+    width: 100%;
+    padding: 10px 0;
+  }
+  .textforgot, .signup, .textor {
+    font-size: 0.9rem;
   }
 }
+
+
+
+ 
+ 
